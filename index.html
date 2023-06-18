@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Criação de Layout</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--Top menu -->
+        <div class="sidebar">
+            <!--profile image & text-->
+
+            <div class="profile">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                    alt="profile_picture">
+                <h3>Nome do usuário</h3>
+                <p>Profissão</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem pariatur tempore vero
+                    architecto aperiam ab voluptas corporis. Reprehenderit laborum beatae commodi hic maiores vitae
+                    voluptatem iure recusandae aut illum! Perferendis.</p>
+            </div>
+
+            <!--menu item-->
+            <ul>
+                <li>
+                    <a href="#" class="active">
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="item">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-friends"></i></span>
+                        <span class="item">Conexões</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-tachometer-alt"></i></span>
+                        <span class="item">Perfomance</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-database"></i></span>
+                        <span class="item">Desenvolvimento</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-chart-line"></i></span>
+                        <span class="item">Relatórios</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-user-shield"></i></span>
+                        <span class="item">Adm</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon"><i class="fas fa-cog"></i></span>
+                        <span class="item">Configurações</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <h2 class="atv">Lista de tarefas</h2>
+        <div class="container">
+            <div class="app">
+                <h1>Dia</h1>
+                <form>
+                  <input type="text" id="taskInput1" placeholder="Adicionar atividade">
+                  <button type="submit">&plus;</button>
+                </form>
+                <ul id="taskList1">
+                </ul>
+              </div>
+              <div class="app2">
+                <h1>Noite</h1>
+                <form>
+                  <input type="text" id="taskInput2" placeholder="Adicionar atividade">
+                  <button type="submit">&plus;</button>
+                </form>
+                <ul id="taskList2">
+                </ul>
+              </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
